@@ -1,0 +1,8 @@
+path: 
+train:
+val: 
+test: 
+# Classes
+names:
+  0: earth_person
+  1: sea_person
