@@ -1,4 +1,4 @@
-# EBGL-DETR <The Visual Computer>
+# EBGL-DETR   The Visual Computer
 
 The corresponding paper title for this project is “Enhanced UAV Small Object Detection via Entangled Transformer with Spatial Aggregation”.
 
