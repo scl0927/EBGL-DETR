@@ -37,6 +37,7 @@ if __name__ == '__main__':
                 project='runs/train',
                 name='exp',
                 )
+$ python train.py
 ```
 
 # Val
@@ -55,6 +56,7 @@ if __name__ == '__main__':
               project='runs/val',
               name='exp',
               )
+$ python val.py
 ```
 
 # Datasets
