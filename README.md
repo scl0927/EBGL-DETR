@@ -60,7 +60,7 @@ if __name__ == '__main__':
               )
 ```
 ```bash
-$ python train.py
+$ python val.py
 ```
 
 # Datasets
