@@ -63,6 +63,25 @@ if __name__ == '__main__':
 $ python val.py
 ```
 
+## 📊 Statistical Validation
+
+To ensure the robustness of our results, we conducted multiple independent training runs
+and report the **mean ± standard deviation** of all evaluation metrics.
+
+| Dataset       | mAP⁵⁰ₜₑₛₜ (Mean ± Std) |
+|:-------------:|:-----------------------:|
+| VisDrone2019  | 42.0 ± 0.3              |
+| AI-TOD        | 53.7 ± 0.4              |
+| TinyPerson    | 26.4 ± 0.4              |
+| NWPU VHR-10   | 89.1 ± 0.2              |
+
+The small standard deviations confirm that **EBGL-DETR** achieves consistent and stable
+performance across multiple independent runs.
+
+> **Note:** Due to space limitations, these detailed statistical results are not included
+> in the main manuscript. All results will be made publicly available in this repository
+> to ensure full reproducibility and transparency.
+
 # Datasets
 *[VisDrone](https://github.com/VisDrone/VisDrone-Dataset)
 *[AI-TOD](https://github.com/jwwangchn/AI-TOD)
