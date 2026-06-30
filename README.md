@@ -87,3 +87,28 @@ performance across multiple independent runs.
 *[AI-TOD](https://github.com/jwwangchn/AI-TOD)
 *[TinyPerson](https://github.com/xixu-me/YOLO-TinyPerson)
 *[NWPU-VHR 10](https://github.com/Gaoshuaikun/NWPU-VHR-10)
+
+\```
+dataset/
+├── images/
+│   ├── train/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   ├── val/
+│   │   ├── image1001.jpg
+│   │   ├── image1002.jpg
+│   │   └── ...
+│   └── test/       
+├── labels/
+│   ├── train/
+│   │   ├── image1.txt
+│   │   ├── image2.txt
+│   │   └── ...
+│   ├── val/
+│   │   ├── image1001.txt
+│   │   ├── image1002.txt
+│   │   └── ...
+│   └── test/      
+└── dataset.yaml    
+\```
