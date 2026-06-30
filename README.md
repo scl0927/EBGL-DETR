@@ -88,6 +88,7 @@ performance across multiple independent runs.
 *[TinyPerson](https://github.com/xixu-me/YOLO-TinyPerson)
 *[NWPU-VHR 10](https://github.com/Gaoshuaikun/NWPU-VHR-10)
 
+```
 dataset/
 ├── images/
 │   ├── train/
@@ -109,4 +110,5 @@ dataset/
 │   │   ├── image1002.txt
 │   │   └── ...
 │   └── test/       
-└── dataset.yaml    
+└── dataset.yaml
+```
